@@ -1,0 +1,143 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">z</S>
+      <Version N="Version">1.1.9</Version>
+      <S N="Type">Module</S>
+      <S N="Description">z lets you quickly navigate the file system in PowerShell based on your cd command history. It's a port of the z bash shell script</S>
+      <S N="Author">Vince Panuccio</S>
+      <S N="CompanyName">vincpa</S>
+      <Nil N="Copyright" />
+      <DT N="PublishedDate">2017-09-28T11:43:28+07:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2022-04-23T05:41:17.9985109+07:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <Nil N="LicenseUri" />
+      <URI N="ProjectUri">https://github.com/vincpa/z</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>z</S>
+          <S>directory</S>
+          <S>popd</S>
+          <S>pushd</S>
+          <S>jump</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">DscResource</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST>
+                <S>z</S>
+                <S>cdX</S>
+                <S>popdX</S>
+                <S>pushdX</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>z</S>
+                <S>cdX</S>
+                <S>popdX</S>
+                <S>pushdX</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">Add cd history file check for first time users. Fix entry listing and remove wildcard.</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST />
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="9">
+        <TN RefId="4">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="description">z lets you quickly navigate the file system in PowerShell based on your cd command history. It's a port of the z bash shell script</S>
+          <S N="requireLicenseAcceptance">False</S>
+          <S N="releaseNotes">Add cd history file check for first time users. Fix entry listing and remove wildcard.</S>
+          <S N="isLatestVersion">False</S>
+          <S N="isAbsoluteLatestVersion">False</S>
+          <S N="versionDownloadCount">4246</S>
+          <S N="downloadCount">28797</S>
+          <S N="packageSize">1411568</S>
+          <S N="published">9/28/2017 11:43:28 AM +07:00</S>
+          <S N="created">9/28/2017 11:43:28 AM +07:00</S>
+          <S N="lastUpdated">4/22/2022 12:41:38 PM +07:00</S>
+          <S N="tags">z directory popd pushd jump PSModule PSFunction_z PSCommand_z PSFunction_cdX PSCommand_cdX PSFunction_popdX PSCommand_popdX PSFunction_pushdX PSCommand_pushdX PSIncludes_Function</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2022-04-22T12:41:38Z</S>
+          <S N="NormalizedVersion">1.1.9</S>
+          <S N="Authors">Vince Panuccio</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">z.nuspec|example_usage.gif|Makefile|README|README.md|z.1|z.ps1|z.psd1|z.psm1|z.sh|.git\COMMIT_EDITMSG|.git\config|.git\description|.git\FETCH_HEAD|.git\HEAD|.git\index|.git\lastupdatetime|.git\ORIG_HEAD|.git\packed-refs|.git\hooks\applypatch-msg.sample|.git\hooks\commit-msg.sample|.git\hooks\post-commit.sample|.git\hooks\post-receive.sample|.git\hooks\post-update.sample|.git\hooks\pre-applypatch.sample|.git\hooks\pre-commit.sample|.git\hooks\pre-push.sample|.git\hooks\pre-rebase.sample|.git\hooks\prepare-commit-msg.sample|.git\hooks\update.sample|.git\info\attributes|.git\info\exclude|.git\logs\HEAD|.git\logs\refs\stash|.git\logs\refs\heads\master|.git\logs\refs\remotes\origin\development|.git\logs\refs\remotes\origin\HEAD|.git\logs\refs\remotes\origin\master|.git\logs\refs\remotes\origin\tmp|.git\logs\refs\remotes\origin\v1.1-wip|.git\objects\00\6cd5945f4a1e9cc4ea6d3ddad2cae06ae6ec19|.git\objects\01\13e053f50debd5b631fcac3f2c267eed93f735|.git\objects\01\9cb6809ffe8c24bb362dde7e95d75eaa1d7d34|.git\objects\01\fff797e272097f1e21c96cce50f465e170aafb|.git\objects\03\d0bc94ec95e3642e59d1c820e4c6e8b4fa8f21|.git\objects\03\eb9afbdcf0d0bb394db8d049e17f50461431cf|.git\objects\04\6874506c4d4b19d414cb83237cb76c2e37ab7e|.git\objects\04\6a6ed38499429eef1189234b3c1d7ea01fc7bc|.git\objects\04\c6dce953b5a865a08d31114165b0588084e096|.git\objects\07\8f04ea7142776055681b347caeba9337f2ab0b|.git\objects\08\ca787ddd8a56ae4ef854e226604218cdac4f2a|.git\objects\08\f1986bb24e57d0c2a1ee2aec32f195d1cf9520|.git\objects\0a\075f680528b47cd1d4546b772699a366bc57a1|.git\objects\0a\4a5b909f7c10529f4cfd466cd45f4a952edc00|.git\objects\0a\58c2d4c151101cb08dddeec8fc65b0d5feea95|.git\objects\0a\d2a6bd35202fea719336a4847e1987fa1d6163|.git\objects\0b\822e7c1e1fd4d3aa744f466a84b275ec505ea4|.git\objects\0d\5f50725582f1c347a855a5dbf1946cc6ae1b67|.git\objects\0e\1f0927f1a295659cae48d21cc4ca3b0338df27|.git\objects\0f\32e92b3aee12c3334efa31a36ec9fbad645a6f|.git\objects\0f\d764963e65ecc93a70ded330e1bf0f269c7639|.git\objects\0f\e46214210141870722b52b73203ff34776c42e|.git\objects\10\790fb383bf5f86f3975954eb1af55316b35b05|.git\objects\11\1b005dc0756aac008d50ab148d7f9524f755e4|.git\objects\13\9fdeba1e21104a72047fd9ea583228dfe0e735|.git\objects\18\125f1b9f6bae796e47ec43ce600c0e0334b785|.git\objects\18\3828517033ead1140e343154aaa899b1096ee7|.git\objects\18\5dcc735042066aea7b803b6221c404f76ccc33|.git\objects\18\cb70d612d5a8f5e813e81bf2b3153d54e9d765|.git\objects\1a\88099f449b500deed964ecf5fd22f98ff339c0|.git\objects\1b\0b1d9cfad5fd27bac9baf7a9e84ae302e965ae|.git\objects\1b\8f340713e9019a46873c4642d1084361616987|.git\objects\1c\66d5bfc052b01b2990117b0496112a47ac5ef1|.git\objects\1c\82e9bffe7fe3b90711ac3e4ebeb5df75e4815d|.git\objects\1f\0dd30ae19706809bfb0c28eef33ee6bffe4f5a|.git\objects\20\924e6a8a3b9dd18c95499f188a9e1d1ce0a2c1|.git\objects\20\ce41ad072defb319b7a351ea4c2d5e427ea632|.git\objects\20\dd25c2316c86177374e746b7f2cb609f46621b|.git\objects\21\0d86027946f278f64045ed23cb243583887180|.git\objects\21\5d7f7152a49383f8503c787d054c3dc59f58e5|.git\objects\23\bf2c949d528b4783e722d7e9e1c052a43db6c1|.git\objects\24\2405ec28262e5f4dadbf1173668a79428c1e52|.git\objects\24\ef73b3a174941c55113060a6f2bfa598bbe728|.git\objects\25\bd85d20fa0fc052994e32a93f062ce0b5477f4|.git\objects\26\9a326c35a606853fe37aa9d57e957afdadca0b|.git\objects\26\c9bc9c174f729e8019c47ccb86395f0cc5293a|.git\objects\26\f2b743d920d207de84d297d5bc37e343355ddf|.git\objects\27\2524766f855d79a5fa304a5cd8463388eeb209|.git\objects\27\31877b7f7741d5872a16c5308b905563d7ceac|.git\objects\28\0403762832cf7140d551a79a3bd290acdaef89|.git\objects\28\4621efc374c210a8573c41cb28fa54286ed347|.git\objects\29\f26ea69525214a91fc539099866679032b1a3b|.git\objects\2b\2b10a04dedb9f33088dddc811f63496f4c2547|.git\objects\2b\3f0a18e9472276c68d30dbe9568beaf71e1c64|.git\objects\2d\e66fc5afd9e81d94fe7f2be1c7b39facdd3138|.git\objects\2e\1b88ed38fb16eebd7f011b335c93436a55786a|.git\objects\2f\2c9062107cdaae69c7242213f4fa42c02096df|.git\objects\2f\41ed257b535e01ce4fcfa39882a78fce534ae3|.git\objects\2f\dbe5f0b91a6eb89ea3b599509466dd628dc3b0|.git\objects\30\0fedff778957d62080a97b3c4d77e1e7793c6c|.git\objects\30\75c0c6d563ec890173dbadb99c7f79bd3bed7e|.git\objects\32\4adcea3d605ffade166398cbdb9effb396af93|.git\objects\32\9a9b2bf5bda0742c5b4aea8419dcb1c99e87e9|.git\objects\32\b957939bb27c0300fe28afe08484506d741169|.git\objects\34\8bc6cfbcbc22d1d897f097585088541166a1d4|.git\objects\34\bca74342b58d05877a72dc6ac7c552e3acfe19|.git\objects\34\f16a3f8bb5d73bf8134794378df1c963fe54f1|.git\objects\35\7aae896fd2291910fd3716838a93abff41e943|.git\objects\35\9a900aacf6c997670db71c5b3d5491f0f1eac0|.git\objects\35\d0ab0f52480c97c53c6487cf7953cfd346f9a4|.git\objects\36\8913e8fa06d2d515c806d09d329b189bd0360b|.git\objects\36\ca8c2461a18db0cf4bf49fc263753090cacdb6|.git\objects\38\34b9950df3aa41d6b03a5874d4615d037c2432|.git\objects\39\3e66751c301002ff4f60817d9aeb9abda3050b|.git\objects\3a\f964506907028942abff1390b11bdf2abb0df2|.git\objects\3b\8200ab143845ffb2a2a4e9df5c84f959015075|.git\objects\3c\b3a54854e7b5f3e8c465f9953dfbceb99a89bd|.git\objects\3d\0efb8b0cd51a0b9c59208cd74fab7fafce966d|.git\objects\3d\59e1d6aa55fcc9bcf796425015e91f577ea73d|.git\objects\3e\a14a2b3e54d77de331343de4a2077d12273859|.git\objects\3f\128808f6e65cda44f828ead5a79d31cb42db8a|.git\objects\3f\29996079232e59e083c0491c662c7d2a1ecb1f|.git\objects\3f\4aa211efa0f22cfae7bb70893fe43b5957a443|.git\objects\40\3468f9d64c8865f85c2b400db09305a2f8f37e|.git\objects\40\65f9bd451d9e5e07cadb953c5c7c65429ddedd|.git\objects\40\d2cf8586d2853affa64f03a43942254318334b|.git\objects\41\6c974768be2e28faf98a4f6d133d4a250f2b19|.git\objects\41\7415b4d8f1840d1256e8692184d95d485afbe2|.git\objects\41\7816c1a371914fdc1c72994132d75e7db6da8d|.git\objects\42\207c3f7f655d2ed3a5edd6386b029926886a06|.git\objects\42\59d1c9f3c3717c916b13eef629871136afb529|.git\objects\42\bc5f5745b1f5f3f50881bf02359de22af0c12d|.git\objects\42\cc90ad754dca3b11da3ee98ac1fd1ca0a82904|.git\objects\42\d7e5142e0036ffcb8103da22ea796f110688cf|.git\objects\43\1de51bbefa41e6094624b07b7740c8a046dddd|.git\objects\43\4ba14060acc274d49a90f427c190bcfabc0f18|.git\objects\43\4d028c9771c3355a61dc388481e87766504174|.git\objects\43\82a302ef2b782030399256ec4f3b86e739e37c|.git\objects\43\c3732d62829f5a11e3c5cfcf6a5ad39244729c|.git\objects\44\3bee5a628f515a323ea61d099c88b328a8db6c|.git\objects\44\90975201a07b36676f0f9dc831b34b1b91a13c|.git\objects\44\a70abfc729dec2f601d2b92a7e5289c2974e88|.git\objects\45\69c31c387dc0e9ca722dd9097ec834acebbcc9|.git\objects\45\7a0ad60e1c5dace171a340aa525b8813383b9a|.git\objects\45\8718c8d78036d06d686709c1d720810ff45b2c|.git\objects\45\ba50c702de1d7e77e95ca5f301b6893752deec|.git\objects\46\2e2c69de886a3f09bf80c8ae4109f5b1cc2aee|.git\objects\46\434976191437a1e5d44701746b5f6477472171|.git\objects\46\5469972370d2b411b080031b5d864db55440e2|.git\objects\46\ec2e3e96fa2c02d4f1e66b7a032c4ce4bf7ba1|.git\objects\47\54dd1bb9a160cbb49f46a876564f7ab618098d|.git\objects\49\692942f97d4864effdd90d78d2e69106e88c13|.git\objects\4a\5538871c3ed3375d61a7fbb0d19579b9e0705f|.git\objects\4b\e539feee53aa7a2bab264742834da6dd62cb90|.git\objects\4c\78d17620ea768e8ef0e10b43442d913efb9e5c|.git\objects\4c\c244bd5e2548028499fb9146f239377e9d6e35|.git\objects\4c\ea807dbbb3976a8d8e0e2a8609ea92cf00c92b|.git\objects\4d\d8be4b870e1e15b927608603af15347f3053fd|.git\objects\52\f6edbc22bc5bccfe052cc8482984c91818ca9f|.git\objects\54\19e34265d486a166149b465937cf2fa700314a|.git\objects\54\429c85c8f4f61d23d69d0fd81f87d5f6b2c15f|.git\objects\54\4db8f0f396be0e0e2b3643c0299aad9ad4eb8b|.git\objects\54\dbb7ce2381b9a7258938310dc4efcb81a1e8b8|.git\objects\55\0484a7e8785aba61080c3e09a282fc4c2b67e6|.git\objects\55\6081a9740bdb2f130a6a9cce1f9459b08155c0|.git\objects\56\c539029b5f992eeca238851343183cb92ad77b|.git\objects\57\bb760577dc1802d78d633f511e4b3a4aa70cd3|.git\objects\57\d740f316aeda784d349da59ce97d780f579159|.git\objects\57\e8f69d729144eb3822a9b875918cd45550bf19|.git\objects\58\0a49e63b4cebf2845fc4367325722980910287|.git\objects\58\1c03ee15fd5f95473b067f7280aeff148d86ce|.git\objects\58\5ff9d58c468ff26c9c4bdf902635a659ba4245|.git\objects\58\685b3ccea69d5fdf93ea908e2714f75ff9419a|.git\objects\58\687672f5379c6713f998b96867ac535b03532d|.git\objects\58\8cd7113e16765016f88e1a49b75c53be59dfd4|.git\objects\59\cafb2e9a44b470375dc843d1a2291263aef433|.git\objects\59\ead6c5c917b6f4c2441f927ad51daed8ddabff|.git\objects\5a\03ca0c2130cce663638cdc9cca8d50eea9d5e2|.git\objects\5b\eb0cac29a986d1e58bbfcc2f083e0424cb3a89|.git\objects\5c\e9c072ce2dad16f3d9285a6a4121fe99ef5226|.git\objects\5c\efbe198b42d8805a5260c4e9133848f613f52e|.git\objects\5e\1da872382a9298488655a5f548ecbda10c8d49|.git\objects\5e\2269898b8fad7e741f07f7d73adff9477ff19d|.git\objects\5f\5a5308bd7ee80c610ad4fb9006f1a928b68b88|.git\objects\5f\91cd275aa1ab271c444e1dc10ceb493742b0d6|.git\objects\5f\bce80a643bedc3711b3a7adf31bd7e2773ac48|.git\objects\60\94e175237d57ed07ac202f6b232db8548f840d|.git\objects\60\ecb5b2ec34e1ac1bd0245cee92d7771ccbffb8|.git\objects\61\5f36d6c534fa2042c1688cf2ee30293519eaea|.git\objects\61\e8e74bef6f49ffddb667f57ded4d3db6485c3f|.git\objects\62\6d159fd147994bc56743bac3345c4a6851b0fb|.git\objects\62\8b313f258c7f3ccc733a609fd2cce2330797d3|.git\objects\63\82212775d9524e7a22477e53d54b476b7353ca|.git\objects\66\3dda5def78431d10e508a990493960cb7eb54f|.git\objects\66\5fbb1b1887ed63124ca455c8687edd4c61d01d|.git\objects\67\e620985aaec7fb3db1397683d0aba3b204d9cf|.git\objects\67\fc04808c98144b73a8442c9b53bbbb28cb4268|.git\objects\68\0fde083553a6edc3de560fa948c3bd5a4be393|.git\objects\68\304812f4816181b378e34c9c17762b6adf9acc|.git\objects\68\4ec5fda933b99cbc44fecdad262dfe3db13da6|.git\objects\69\0acd0d1b4b1e8c653b86a81445a7651e76d1f5|.git\objects\69\a3c0762243302be0eb8e2a533b836d767b1584|.git\objects\6a\9f3e25cf4d81286a1d7d6f099a5089154f7b19|.git\objects\6b\07d024dfa22a7082d392357493d048ddc3b126|.git\objects\6b\68a4e3d5a90925636e23abf8d8f4d441de380d|.git\objects\6c\6b14081501cae12f0ec5ece4c7ed2e60480319|.git\objects\6c\9ff804a70cca8c19850d6f95dd5dc0c4d63a74|.git\objects\6e\0b86b64eb41738fe6f9447843f12ceb2253042|.git\objects\6f\62a026cd13da4c7b27ef16a0ff15b164e543c1|.git\objects\6f\c5157cc8260fa97ae5d9e93c53972fe0df2871|.git\objects\70\acd2e24db7d88e9b4c23b9f7c2eff0cd4a31ac|.git\objects\71\b9f2baffa5df93c7021ceb541ec939e7da3ee0|.git\objects\72\6e88e57d7b84d5f764a6c0a59814a252f8380f|.git\objects\73\0ecfd65bf84af9929d2521dab8908c21a10008|.git\objects\74\078e492636d35899a08f006138f8abe02313d9|.git\objects\74\6010d6cbb0958562a9dc6a10675310ccf52ece|.git\objects\75\dc10900fec6721080372cb3ff9897748043ce3|.git\objects\76\bc748dc9c1b06cb01e9c7055645395addd2db0|.git\objects\77\0983e3796adaeee605f6c1ba156c794fefde32|.git\objects\77\21f5f63ccf14011b53c447e5bf2eb397b941d0|.git\objects\77\4026659e48be1bb7d27b41e0c7d8dba1869912|.git\objects\77\694eccf854980354ec1193691fdc40be2f8b85|.git\objects\77\87e122bd4cfa57b4eacfbdcdad75c8c27cbc20|.git\objects\78\37a7e2bbb84ab7f5cecbe63fff7754fbfa9ea1|.git\objects\78\a331dcdd7a267725996f879a27d901a21d69c2|.git\objects\79\b2cb927eff9c6ccbdf4cec943693215e528f85|.git\objects\79\b863ce6f9ce1b4cd33cec040beac9b61a734df|.git\objects\7a\119c4331605e15e04454db2964d9c0601cc955|.git\objects\7a\c3e1c771009f7b73f5386216c9a95099951586|.git\objects\7b\d57b79aa1a742681c4e7e093bd9d2ab7606531|.git\objects\7c\5c999232e5dcc0955765f6e52caaa7a190e9e2|.git\objects\7c\906ac8d47a67dddf66523b85ef2a79a48c1ab8|.git\objects\7d\07549ac37e79d26456553238d3165e0e3f5f9c|.git\objects\7e\7503907ec5b241f4877d79ccf48cc256c5ae11|.git\objects\7f\f80cbfcc8329c2aa6767eef039c7a8e003d6ad|.git\objects\80\ab15f1336fea96924b9e472c2f3ad702bb00c3|.git\objects\80\e25e929d13a54a469ce879bcae06d273a447c9|.git\objects\81\667937a823f9db98d106411ef705622e40a30f|.git\objects\81\709fd8a3fb386d124d5b8b5af539434d51db5f|.git\objects\83\56a8be941cb36d76336563b8ae27d28a04b308|.git\objects\83\a52e0bf4c0d6b56173db6605b67ee187765709|.git\objects\83\d1005fd118b88aa007124ac9df4cc760d95f8d|.git\objects\85\0f44a63d10ac652cb039a461f675c6a071b1ab|.git\objects\85\f92a5170db453215f6b2b72ea6fccbc5818c48|.git\objects\87\394920333453ac286225ca24d8dcb2b3652a74|.git\objects\87\5fa5fb7c4d3234fcdd1108b85213fd1cb3e31c|.git\objects\89\55ac6caed82a7a1737dbf15adaea7165bf0532|.git\objects\89\6b6da7f9783f473e235e6bf9b9cca279afe2e1|.git\objects\8a\f2ce7824d7c3dead94964bf4a6e73509187649|.git\objects\8b\c47c548adcd59bd906b85808b33dcef1018bd0|.git\objects\8d\55c7eed3b2ec7d1f4c226299935c9a3ff85897|.git\objects\8d\acceb8b21a232c5fd2e2acc6c2998f871a5629|.git\objects\8d\c708b883b94436d971e70c467e923c249cd367|.git\objects\8d\ca3fc9f46891234ae60291422cc21edad40b06|.git\objects\8d\da30cf230cb6bc975cabc596115e911f7e7d64|.git\objects\8e\865e0a5463219cdc5d3f1e7cb460199596858b|.git\objects\8e\ddef88bcdde79ab07e4e556f87ff3f0fddc680|.git\objects\8e\ebacf4de363894e66f805e87f63b076a5863d7|.git\objects\8e\ec7929d0f970dd7b8f157acfe773fadcd8fe73|.git\objects\8f\24cd8a7b5ad45b02fbd3a724f149b2ba9b58a5|.git\objects\8f\29875bb90e80f27803dc17d4867e2f3b4ff06a|.git\objects\92\4f5a787fd9b378f23ec51c88db1d5d2efba411|.git\objects\93\56270d4b3a12ff297b87ce700faddb077999a7|.git\objects\94\6e0f57be5a50515e392a1f3203dc90a56aef6d|.git\objects\94\7b641d769b8167046eda0953329c31ddb9152c|.git\objects\94\bdadc59292cc6bfe4fef8b97855fab51e26387|.git\objects\94\efd3f3f02a36d02cf6d9a52fd830446b9d6fea|.git\objects\95\41918d5f80e5fcaef45bd1623765d26725df09|.git\objects\96\0659b0b95a4f56a3269a0dcb5112c333eadd09|.git\objects\97\b1ca17feef40c143d6c6051b98e92d209b5ed9|.git\objects\9a\5313b7e6e033df7adf9e479d29110a6891e011|.git\objects\9c\3dbe0078801c76311a26394fb458b32121b24d|.git\objects\9c\d94a1aef4938b3e2a64073c878a1523302b528|.git\objects\9e\0bc12d1e17141b5681fb7051793282686ff541|.git\objects\9e\4c44969e3f32253524ad830cda9d31e78a129d|.git\objects\a0\684659bd7ac703c99bec65203bd4df9b3467c1|.git\objects\a0\8d3e00ed886060af7478af7f1b13de703b0007|.git\objects\a5\051d5f3fd56711b125a888a0a7613c40d4fa3e|.git\objects\a6\8836f9aadad548df75614767841dae136b0f51|.git\objects\a6\fc56056318841c079c4efc7b9978c87f3abd4b|.git\objects\a8\7e3a32dd13ceb160e0a38744bdf345ffe9f19a|.git\objects\a9\d13f72d19886d8812348fc41ab16fa1eed1eec|.git\objects\ab\6c1d97d4c686994ddae79202420fef94b1e425|.git\objects\ac\43572ee106242e876ff75b65b65ad5eb2c8e02|.git\objects\ad\0a80b28dd0625e2e30b7130f55bd65c62ea68b|.git\objects\ad\e958677a891a6b1a80eddafdc8a4bd298fcf76|.git\objects\af\45e144e675056e3df8eb3e1b40e34803c362b6|.git\objects\b0\34456a4bbedf6e2bbf811768cbdd9f38bf4bae|.git\objects\b2\1b6d5db3b82a37661bcf426af70b6bf437b061|.git\objects\b2\58ba46a864112372faf0442d336ea93cbcec22|.git\objects\b4\7e09582173962f352372b91f160cdb1db7a8de|.git\objects\b4\8635e76493154704d1e5ceb32059c7df952f96|.git\objects\b5\8d4884472b5b0bffdb19dce1b6e6f446a287c3|.git\objects\b5\9fc1ca216df6e544f6c714f1afba11a91441eb|.git\objects\b7\869d5f2fe5996c6afed29b156c09df2accef77|.git\objects\b7\ef9425a306c46d58f1ae4d6d27113806ea98af|.git\objects\b7\f8ef65a6e41e5694516dd0cfc33977d8bac777|.git\objects\b8\1ab898a702ca568728d1be71ed1215e4417396|.git\objects\b9\7777f7eaa102c8182e5679fb16cdb8adb94b70|.git\objects\b9\9fd752ba606e5c686971ad1851fa53af7a3919|.git\objects\ba\8553c95dbf05a5752dadcf2ec020518ae07dbf|.git\objects\ba\abd571c5d243fe0d2a87d383931be6fe537df5|.git\objects\ba\acab51875b93f13893c59120d13ab81c282521|.git\objects\bb\1b8e81fe3ec04ea8e5c15061de066c59d60c10|.git\objects\bb\2cc8d186d27de69fc59bb84c7278dbe3cd5ff8|.git\objects\bc\1a64c412923ae8ee5da7e6af2b8b8b861b3297|.git\objects\bd\2b273ecc6ddb4394c160e785a4f52c19a43182|.git\objects\bd\3898008f01e6a26fafc229ec3291918c07edba|.git\objects\bd\c094a27c8cdbc44a4226f8d3e6fcaf11e54eca|.git\objects\be\04d91eb21def3862ee77acc01db10f9cf79fd5|.git\objects\c0\3e5a804b8cc9416b87d2001140ec5d6b229e8b|.git\objects\c2\4618cecc2bd4463b812a7c875d5378dcd8bfa7|.git\objects\c2\dd5a3c055ca2d2c5cae822c13020aa36c99e61|.git\objects\c3\43a3a87b863637b9b474bb7bfa0cb8d8d6852d|.git\objects\c3\d07636bd3d96aae22a4971b531bb8aaef138ab|.git\objects\c4\85a29f06c9283bcc1a51ed8b28744759b2dcb0|.git\objects\c5\f6379b6ead7659b0382343099564e1842d12c3|.git\objects\c7\5273d06094e49269e60ba64c9d97cababf0756|.git\objects\c7\c9f4a56bd121e7a498568ae1f60bcc5384b848|.git\objects\c7\f48b4607a6c80a5018d81a5f4c8e76e7c21ce4|.git\objects\c8\1bd32b03377bd3c58aadb7fc4b4a34a06a5ebb|.git\objects\c8\938edf324ca7a8d6a1e91b16494a8ceea4502f|.git\objects\c8\9e93f8b3e78d74945cead8c1c0686990ac4d90|.git\objects\c8\de2e5b66c009dd99ef17f62e52053bf084321f|.git\objects\c9\4939cd57a1cec70e6cf54853030fb9f017cb95|.git\objects\c9\9f00f42c39252548ab9ff8bdbe8fd6746e127a|.git\objects\ca\5bf93f9e3d73f7181b3e737fc5f5e8855af57d|.git\objects\ca\b71c84ea40d007849eb74ceaf5e6b3005c8e86|.git\objects\cb\4ed1e053c3776010c4acb9b282631f6e26148c|.git\objects\cb\91a59d4375e40f5c86fc8ce0558a1b084033d6|.git\objects\cd\a4d2cfcb9d8a5921806c2b1dcf0844a060c3f6|.git\objects\cd\fd73f311eef04946cf54ffa94405cbaa702657|.git\objects\d2\746921c5dfb704964cb14c81805291e26b2bda|.git\objects\d2\d8c7d14e6eeae725d4dbf7ac7bce18b3b78db7|.git\objects\d2\fbf1656a362b0546dfba43c5114f0f622814bf|.git\objects\d3\24dfc30325973b4468bc909bc0cae7e98a9ad0|.git\objects\d3\6a4f05900a323d3ad7b840e74561284bc1fb1e|.git\objects\d3\f377f5023b09a961e0da766ddb71bf8539a055|.git\objects\d6\38a0d7fa1de8de069e10e1f89abb13b29b91f4|.git\objects\d6\499ad832ce4e22df4e830ee723d58011174d0d|.git\objects\d7\1c4c33c77ae5c0e519930efe5fe3ba62006174|.git\objects\d7\676bf6247a0304734d66711ac59cb1c713b14a|.git\objects\da\ca4845ad9165b48df7b810b5b172a6590f1448|.git\objects\db\8ed78d4b05cdb8ac91ad27b98b3d3e9ae91c59|.git\objects\db\a49e1342f2a151698d89686e6f69f791bc5aa2|.git\objects\dc\4cb76fa5c8a95a95163a73c172cc5b120a9ed6|.git\objects\dd\cd0a41bdf37d33cf2b09c0a14b34e9d494c594|.git\objects\de\2f2452effbe971a2033b2687ac8297b1310e22|.git\objects\de\991042c4848c987a224c06d95227e265c8f7a4|.git\objects\de\e72f8a85d367f47c8582cecdef88f76fff0eaf|.git\objects\df\588945f3fb38532c508eb132aae5b202c97067|.git\objects\e0\c47ca506fdca77718207e8e98088739db02bc5|.git\objects\e2\05d69878a1bd870c838d6a9e592fea76c118c2|.git\objects\e2\604646a7ac03a632dfe8e902dd4150847723c9|.git\objects\e2\afae65259d1e133a2693ab4cc816de1a2ff7c1|.git\objects\e4\f40bc2a17586ee82fe8b64aea321f2166ea522|.git\objects\e5\0c8b239671fad65c325ac414d7ecd2c3099316|.git\objects\e6\c0bcecc8eb092be7627f126e7824683c870139|.git\objects\e7\4d50998ae24f3f14136c480727fc3495271bd1|.git\objects\e7\83bdf65865e4180f089ed4da120f0231a406e8|.git\objects\e7\90050236704d1e247546a1d2d02034ba7d1d35|.git\objects\e7\d2c3edec000a845b8f777c71ba6c6891d9fdae|.git\objects\e7\f5758ecedad4f6c71c1313ba539de9307d22a5|.git\objects\e8\99405782458cf31b6bf68b16771f6ab0e86770|.git\objects\e8\fed40a1ca156b0bc5a6e23f2ff7c8fad185a90|.git\objects\ea\9204e3b1a9f7927a5012d19330c3a0a0882c62|.git\objects\ec\a045da0f0eefd8497c95f49e6e3fe29445f801|.git\objects\ec\e59461dbf52b4e297b4efdec9846846a43cfd0|.git\objects\ec\fd2c13d5015a76b08fc634187791104bca540f|.git\objects\ed\24bfd70650eceed950ec3e459b747653af284c|.git\objects\ef\4ba9f073f50001f79d14d71f1b45009c7fb686|.git\objects\ef\93dadcdcee3b7078c155d5de43325b4994a428|.git\objects\f2\4e5a6eb4724e0e55c5a59057f2a508f25c738b|.git\objects\f3\4196bb4079463715d81c7e1772c7516a3b0c28|.git\objects\f3\5be02f0a16eedbecdcfb729c8b2570f610eaa7|.git\objects\f5\3bd55de5a0d0ab73bf42b7cc69f3915ca08db0|.git\objects\f5\5bb536e511989b0741c8553b5c36a2b7b9127b|.git\objects\f5\b7326333cc422f77ce09fbedd07fa1c983e859|.git\objects\f6\0168c8283e8888a9dad97f31f4683b7b4990cf|.git\objects\f6\42ded69c2aefd60ef19f36295c2c9c1bc87ce1|.git\objects\f7\61da4e6b28840d2e000d086edf041a9e9e0d66|.git\objects\f7\c2f37d0ac4500a215a081823f0312f38cc6655|.git\objects\f9\6c46949b711723c80d509a00b863d0ac63a1bf|.git\objects\f9\d2441665cfcfa6d46da2b158990af5fb86de3c|.git\objects\fa\d8c23fb17b80d78520ba91ea6dc550cb63cee5|.git\objects\fb\b21fd65967c1ed4d41d71bc0836b40c8cb7189|.git\objects\fc\79d7a35952df6361ad735b6cff34b7cd3dd500|.git\objects\fc\d5fb125957f77d194b217bcf127d50cc0d7b90|.git\objects\fc\eb6c8d3dbfa6100b40de8bfcd4fc12b04819c7|.git\objects\fd\602918607912b9b2469f124d70216842f641bb|.git\objects\fd\fe0fb28b3319ff23559debc3eac2132adbd08a|.git\objects\fe\37b7f00e987eae7998b6ff0a12d21f6fb2bad7|.git\objects\fe\9264edb39895abf5aacea2d3e788655737e8c2|.git\objects\fe\e02b9ebf911fb71036b78844439bbf85c9e8c4|.git\objects\ff\360de4f7afb8ddf76081f10176d3c65fb0e155|.git\objects\ff\a2a8b43f0e3a2c04ed967327e2d39e8d1e2ab2|.git\objects\pack\pack-16e3aafd95d32375f37e1ede529e4f2210f52b95.idx|.git\objects\pack\pack-16e3aafd95d32375f37e1ede529e4f2210f52b95.pack|.git\objects\pack\pack-57902a8a4fc10f1b416ba2eddafd3dafd03f4628.idx|.git\objects\pack\pack-57902a8a4fc10f1b416ba2eddafd3dafd03f4628.pack|.git\objects\pack\pack-946d82ffdf9dd129c6699fde9f1da66cb36696b7.idx|.git\objects\pack\pack-946d82ffdf9dd129c6699fde9f1da66cb36696b7.pack|.git\refs\stash|.git\refs\heads\master|.git\refs\remotes\origin\development|.git\refs\remotes\origin\HEAD|.git\refs\remotes\origin\master|.git\refs\remotes\origin\tmp|.git\refs\remotes\origin\v1.1-wip|.git\refs\tags\v1.1.3|.git\refs\tags\v1.1.4|.git\refs\tags\v1.1.5|.git\refs\tags\v1.1.6|.git\refs\tags\v1.1.7</S>
+          <S N="GUID">bc198554-ae1f-4ab6-84ce-5d3a41b74553</S>
+          <S N="PowerShellVersion">3.0</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\dattr\Documents\PowerShell\Modules\z\1.1.9</S>
+    </MS>
+  </Obj>
+</Objs>
